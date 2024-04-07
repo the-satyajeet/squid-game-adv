@@ -13,7 +13,7 @@ function Nav() {
   return (
     <div className="md:sticky md:top-0 md:shadow-none z-20 ">
       {/* DESKTOP */}
-      <div className=" hidden lg:block fade-in zoom-in bg-gray-900 p-4">
+      <div className=" hidden lg:block fade-in zoom-in bg-black p-4">
         <div className="flex justify-between md:mx-[9rem] items-center">
           <div>
             <img src="/images/lot-white-logo.png" alt="logo" />
