@@ -1,4 +1,8 @@
 import React from "react";
+import Apr19 from "./apr19";
+import GreyCapsule from "./greyCapsule";
+import BlackCapsule from "./blackCapsule";
+import BlackCapsule2 from "./blackCapsule2";
 
 const Intro = () => {
   return (
@@ -14,20 +18,21 @@ const Intro = () => {
           <h1 className="text-[6rem] font-bold">Dare To Play 2024</h1>
           <h2 className="text-[4rem] font-normal">Theme: Squid Game</h2>
         </div>
-        <div className="h-[27.94px] w-[24.12px] ml-8 flex">
-          <div className="flex flex-col">
-            <p className=" text-white pt-1 flex items-center justify-center font-bold text-[6.96px] w-[24.12px] h-[10.06px] bg-[#252525] rounded-t-md">
-              APR
-            </p>
-            <p className=" flex justify-center items-center w-[24.04px] h-[17.88px] border-2 border-[#252525] rounded-b-md">
-              <img src="/images/date-19.svg" alt="logo" />
+        <div>
+        <div className="ml-8 flex flex-row items-center">
+        <Apr19></Apr19>
+          <div className="text-white ml-4 flex flex-col ">
+            <p className="font-bold text-[16px]"    >Baldev Raj Mittal Unipolis</p>
+            <p className="font-normal text-[12px]">
+              Lovely Professional University, Punjab
             </p>
           </div>
-          <div className="text-white ml-4">
-            <h2 className="">Baldev Raj Mittal Unipolis</h2>
-            <h3>Lovely Professional University, Punjab</h3>
-          </div>git
-          {/* <div></div> */}
+        </div>
+        <div className="flex justify-evenly mt-6 ml-8 gap-4">
+            <GreyCapsule></GreyCapsule>
+            <BlackCapsule></BlackCapsule>
+            <BlackCapsule2></BlackCapsule2>
+        </div>
         </div>
         <div></div>
         <div></div>
