@@ -3,6 +3,8 @@ import Apr19 from "./apr19";
 import GreyCapsule from "./greyCapsule";
 import BlackCapsule from "./blackCapsule";
 import BlackCapsule2 from "./blackCapsule2";
+import Registration from "./registration";
+import Location from "./location";
 
 const Intro = () => {
   return (
@@ -19,25 +21,30 @@ const Intro = () => {
           <h2 className="text-[4rem] font-normal">Theme: Squid Game</h2>
         </div>
         <div>
-        <div className="ml-8 flex flex-row items-center">
-        <Apr19></Apr19>
-          <div className="text-white ml-4 flex flex-col ">
-            <p className="font-bold text-[16px]"    >Baldev Raj Mittal Unipolis</p>
-            <p className="font-normal text-[12px]">
-              Lovely Professional University, Punjab
-            </p>
+          <div className="ml-8 flex flex-row items-center">
+            <Apr19></Apr19>
+            <div className="text-white ml-4 flex flex-col ">
+              <p className="font-bold text-[16px]">
+                Baldev Raj Mittal Unipolis
+              </p>
+              <p className="font-normal text-[12px]">
+                Lovely Professional University, Punjab
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="flex justify-evenly mt-6 ml-8 gap-4">
+          <div className="flex justify-evenly mt-6 ml-8 gap-4">
             <GreyCapsule></GreyCapsule>
             <BlackCapsule></BlackCapsule>
             <BlackCapsule2></BlackCapsule2>
-        </div>
+          </div>
         </div>
         <div></div>
         <div></div>
       </div>
-      <aside className="bg-gray-100 w-[30%] h-[30rem]"></aside>
+      <aside className="bg-gray-100 w-[30%] h-[30rem]">
+        <Registration></Registration>
+        <Location></Location>
+      </aside>
     </section>
   );
 };
