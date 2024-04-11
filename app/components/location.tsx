@@ -3,12 +3,13 @@ import React from 'react'
 const Location = () => {
   return (
     <>
-    <div className="w-[347px] h-[408px] flex-col justify-start items-start inline-flex">
+    <div className="w-[347px] h-[408px] flex-col justify-start items-start inline-flex mt-5">
     <div className="self-stretch h-14 p-4 bg-zinc-700 rounded-tl-2xl rounded-tr-2xl flex-col justify-start items-start gap-2.5 flex">
         <div className="justify-center items-center gap-2.5 inline-flex">
             <div className="w-6 h-6 relative"></div>
             <div className="flex-col justify-start items-start gap-4 inline-flex">
-                <div className="flex-col justify-start items-start gap-3 flex">
+                <div className="flex-row justify-start items-start gap-3 flex">
+                <img src="/icons/location-icon.png" alt="Gallery icon" className="w-6 h-6" />
                     <div className="text-white text-xl font-bold font-['Vinila Test']">Location</div>
                 </div>
             </div>

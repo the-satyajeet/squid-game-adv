@@ -7,7 +7,8 @@ const Apr19 = () => {
         APR
       </p>
       <p className=" flex justify-center items-center w-[26px] h-[20px] border-2 border-[#252525] rounded-b-md">
-        <img src="/images/date-19.svg" alt="logo" />
+        {/* <img src="/images/date-19.svg" alt="logo" /> */}
+        <p className="text-white">19</p>
       </p>
     </div>
   );
