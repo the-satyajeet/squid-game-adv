@@ -3,6 +3,7 @@
 import { useState } from "react";
 // import { X } from "lucide-react";
 import MainButton from "./MainButton";
+import { X } from "lucide-react";
 
 function Nav() {
   const [menu, setMenu] = useState(false);
